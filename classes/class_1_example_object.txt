@@ -1,0 +1,17 @@
+OdysseyGastropub
+
+Attributes:
+hasOven = false;
+utensils = ['fork', 'spoon', 'knife']
+numOfPlates = 200;
+headChef = 'Jon Taffer';
+
+Methods:
+hireChef('Gordon Ramsey');
+  //reassigns value of headChef to 'Gordon Ramsey'
+servePlate(4);
+  //value of numOfPlates = 196;
+bakeMeal('Macaroni and Cheese');
+  //returns error
+chooseUtensil[0];
+  //prints 'fork'
