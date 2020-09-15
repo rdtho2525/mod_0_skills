@@ -1,0 +1,12 @@
+JackQuinnBar
+
+greeter = 'Sheryl Crow';
+numOfAvailTables = 1;
+isFullCapacity = false;
+
+sayHello(greeter)
+  //prints "I want to soak up the sun!"
+makeReservation()
+  //numOfAvailTables is assigned a value of 0
+checkCapacity()
+  //prints 'We'/re sorry, our dining hall is full.'
