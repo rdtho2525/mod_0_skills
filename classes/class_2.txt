@@ -1,0 +1,13 @@
+FrontOfHouse
+
+Attributes:
+greeter (hash/object)
+numOfAvailTables (integer)
+isFullCapacity (boolean)
+
+
+Methods:
+sayHello (returns message stored as value to greeter's
+  greeting property)
+makeReservation (decrements numOfAvailTables by 1)
+checkCapacity (prints one of two messages based on value of isFullCapacity)
