@@ -10,6 +10,6 @@ Methods:
 hireChef (changes value of headChef)
 servePlate (accepts number of customers dining at a table as
   an argument and subtracts that from numOfPlates)
-bakeMeal (conditional; requires hasOven === true before proceeding)
-chooseUtensil (accepts a string value of a dish, each of which are
-  tied to a specific element index; returns appropriate utensil)
+bakeMeal (conditional; accepts a menu item in the form of a
+string as an argument requires hasOven === true before proceeding)
+chooseUtensil (selects utensil based on called element index position)
