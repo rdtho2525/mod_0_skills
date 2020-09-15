@@ -1,0 +1,15 @@
+Kitchen
+
+Attributes:
+hasOven (boolean)
+utensils (array)
+numOfPlates (integer)
+headChef (string)
+
+Methods:
+hireChef (changes value of headChef)
+servePlate (accepts number of customers dining at a table as
+  an argument and subtracts that from numOfPlates)
+bakeMeal (conditional; requires hasOven === true before proceeding)
+chooseUtensil (accepts a string value of a dish, each of which are
+  tied to a specific element index; returns appropriate utensil)
